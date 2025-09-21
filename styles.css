@@ -1,0 +1,54 @@
+.Post{
+    width: 500px; /* Esto es el ancho total del principal contenedor del post*/
+    border: 1px solid #dbdbdb; /* Esto diuja un borde alrededor del div padre con color gris clarito*/
+    box-sizing: border-box; /*Esto evita que se haga mas grande el post al aplicarle border y padding*/
+}
+
+.post-header{
+    display: flex; /*Esto hace que el cntenedor sea flexible, es decir que los elemenstos se muevan y hagan una fila horizontal*/
+    justify-content: space-between; /*Esto hace que el contenido que hay en el contenedor tenga un espacio entre ellos*/
+    align-items: center; /*Esto lo que hace es alinear los items que queden al centro del contenedor padre*/
+    padding: 10px; /*Esto añade un espacio de 10px dentro del contenedor, para que haya una pequeña separacion, se puede probar lo que hace en inspeccion del codigo */
+}
+
+.html5-rigo{
+    margin-right: 70%;
+    font-size: 10px;
+    font-family: "Roboto";
+}
+
+.fa-brands.fa-html5{
+    font-size: 25px;
+}
+
+.fa-solid.fa-ellipsis-vertical{
+    font-size: 25px;
+}
+
+.html5{
+    margin: 0;
+}
+
+.rigoberto{
+    margin: 0;
+}
+.image1{
+    width: 100%;
+    display: block;
+}
+
+.post-body{
+    padding: 10px;
+}
+
+.post-icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.post-icons-to-left{
+    display: flex;
+    gap: 15px;
+}
+
