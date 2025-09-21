@@ -12,33 +12,32 @@
 }
 
 .html5-rigo{
-    margin-right: 70%;
-    font-size: 10px;
-    font-family: "Roboto";
+    margin-right: 70%; /*Esto lo que hace es que el html5 y el rigoberto se mueven a la izquierda 70% del contenedor padre, permtiendo asi que no se queden en el centro*/
+    font-size: 10px; /*Esto le da un tamaño de 10px para que sea un poco mas pequeño*/
+    font-family: "Roboto"; /*Esto es la fuente del texto */
 }
 
 .fa-brands.fa-html5{
-    font-size: 25px;
+    font-size: 25px;/*Esto defie el tamaño del icono del html5*/
 }
 
 .fa-solid.fa-ellipsis-vertical{
-    font-size: 25px;
+    font-size: 25px; /*Esto defie el tamaño del icono de 3 puntos verticales*/
 }
 
 .html5{
-    margin: 0;
+    margin: 0; /*Aqui hemos quitado el margin para que no haya tanta separacion entre el texto del html5 y rigoberto*/
 }
 
 .rigoberto{
-    margin: 0;
+    margin: 0;/*Aqui tambien hemos quitado el margin para que no haya tanta separacion*/
 }
 .image1{
-    width: 100%;
-    display: block;
+    width: 100%; /*Aqui le decimos a la imagen que ocupe el 100% de su contenedor*/
 }
 
 .post-body{
-    padding: 10px;
+    padding: 10px; /*Esto lo que hace es crear una separacion de 10px entre el contenido del y el propio div padre para que el contenido no se quede tan pegado al borde*/
 }
 
 .post-icons{
@@ -49,6 +48,6 @@
 
 .post-icons-to-left{
     display: flex;
-    gap: 15px;
+    gap: 15px; /*Esto lo que hace es crear un espacio de 5 píxeles entre los iconos que contiene el contenedor padre*/
 }
 
